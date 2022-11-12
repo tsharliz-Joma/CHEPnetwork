@@ -1,0 +1,30 @@
+<!-- <!DOCTYPE html>
+<html>
+    <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script> -->
+    <!-- ar.js version without nft support but marker + location support -->
+    <!-- <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <body style="margin: 0px; overflow: hidden;">
+        <a-scene embedded arjs>
+            <a-marker present="hiro"> -->
+                <!-- <a-box position="0 0.5 0" material="color: #ff6124"></a-box> -->
+                <!-- <a-asset-item id="micro" src="../marker/js/microphone-scene.gltf"></a-asset-item>
+            </a-marker>
+        </a-scene>
+
+    </body>
+</html> -->
+
+<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+<body style='margin : 0px; overflow: hidden;'>
+	<a-scene embedded arjs>
+		<a-marker preset='hiro'>
+            <a-assets>
+                <a-asset-item id="microphone" src="./js/microphone-scene.gltf">
+                    <a-entity gltf-model="##microphone"></a-entity>
+                </a-asset-item>
+            </a-assets>
+        </a-marker>
+	</a-scene>
+</body>
