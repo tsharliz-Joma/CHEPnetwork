@@ -11,12 +11,18 @@
 
             <a-assets>
                 <img id="front" src="chep.png">
+                <img id="back" src="chep.png">
+                <img id="left" src="chep.png">
+                <img id="right" src="chep.png">
+                <img id="top" src="chep.png">
+                <img id="bottom" src="chep.png">
+
                 <!-- <a-entity id="microphone" src="js/microphone-scene.gltf"></a-entity> -->
             </a-assets>
 
             
             <a-marker type='pattern' url='https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/pattern-chep2.patt'>
-                <a-box position='0 0.5 0' material='color: #ff6124;'  multisrc="srcs:#front,#front,#front,front,#front,#front" ></a-box>
+                <a-box position='0 0.5 0' material='color: #ff6124;'  multisrc="srcs:#right,#left,#top,#bottom,#front,#back" ></a-box>
                 
             </a-marker>
 
