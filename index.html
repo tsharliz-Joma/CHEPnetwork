@@ -1,18 +1,3 @@
-<!-- <!DOCTYPE html>
-<html>
-    <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script> -->
-    <!-- ar.js version without nft support but marker + location support -->
-    <!-- <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-    <body style="margin: 0px; overflow: hidden;">
-        <a-scene embedded arjs>
-            <a-marker present="hiro"> -->
-                <!-- <a-box position="0 0.5 0" material="color: #ff6124"></a-box> -->
-                <!-- <a-asset-item id="micro" src="../marker/js/microphone-scene.gltf"></a-asset-item>
-            </a-marker>
-        </a-scene>
-
-    </body>
-</html> -->
 
 <!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
 <!DOCTYPE html>
@@ -20,21 +5,26 @@
     <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
     <!-- we import arjs version without NFT but with marker + location based support -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://cdn.rawgit.com/elbobo/aframe-multisrc-component/b6d23310/dist/0.3/aframe-multisrc-component.js"></script>
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
 
+            <a-assets>
+                <img id="front" src="chep.png">
+            </a-assets>
+
             
             <a-marker type='pattern' url='https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/pattern-chep2.patt'>
-                <a-box position='0 3 0' material='color: #ff6124;' text="value: Hello World"></a-box>
+                <a-box position='0 0.5 0' material='color: #ff6124;' text="value: Hello World" multisrc="src4:#front" ></a-box>
                 <a-entity text="value: Hello World" material="color: white"></a-entity>
             </a-marker>
 
             <a-marker preset="hiro">
-                <a-sphere position="0 3 1" material="color: #ff6124;"></a-sphere>
+                <a-sphere position="0 0.5 0" material="color: #ff6124;"></a-sphere>
             </a-marker>
 
             <a-marker preset="kanji">
-                <a-octahedron posoition="0 3 0" material="color: #ff6124;"></a-octahedron>
+                <a-octahedron posoition="0 0.5 0" material="color: #ff6124;"></a-octahedron>
             </a-marker>
 
             <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
