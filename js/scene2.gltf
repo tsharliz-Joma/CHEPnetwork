@@ -1622,193 +1622,193 @@
   ],
   "images": [
     {
-      "uri": "textures/Base_Wall_baseColor.jpeg"
+      "uri": "textures2/Base_Wall_baseColor.jpeg"
     },
     {
-      "uri": "textures/Base_Wall_metallicRoughness.png"
+      "uri": "textures2/Base_Wall_metallicRoughness.png"
     },
     {
-      "uri": "textures/Base_Wall_normal.png"
+      "uri": "textures2/Base_Wall_normal.png"
     },
     {
-      "uri": "textures/material_baseColor.jpeg"
+      "uri": "textures2/material_baseColor.jpeg"
     },
     {
-      "uri": "textures/material_metallicRoughness.png"
+      "uri": "textures2/material_metallicRoughness.png"
     },
     {
-      "uri": "textures/material_normal.png"
+      "uri": "textures2/material_normal.png"
     },
     {
-      "uri": "textures/zemin1_baseColor.jpeg"
+      "uri": "textures2/zemin1_baseColor.jpeg"
     },
     {
-      "uri": "textures/zemin1_metallicRoughness.png"
+      "uri": "textures2/zemin1_metallicRoughness.png"
     },
     {
-      "uri": "textures/zemin1_normal.png"
+      "uri": "textures2/zemin1_normal.png"
     },
     {
-      "uri": "textures/clips_baseColor.jpeg"
+      "uri": "textures2/clips_baseColor.jpeg"
     },
     {
-      "uri": "textures/clips_metallicRoughness.png"
+      "uri": "textures2/clips_metallicRoughness.png"
     },
     {
-      "uri": "textures/clips_normal.png"
+      "uri": "textures2/clips_normal.png"
     },
     {
-      "uri": "textures/Lamba_metal_baseColor.jpeg"
+      "uri": "textures2/Lamba_metal_baseColor.jpeg"
     },
     {
-      "uri": "textures/Lamba_metal_metallicRoughness.png"
+      "uri": "textures2/Lamba_metal_metallicRoughness.png"
     },
     {
-      "uri": "textures/Lamba_metal_normal.png"
+      "uri": "textures2/Lamba_metal_normal.png"
     },
     {
-      "uri": "textures/Lamba_metallicRoughness.png"
+      "uri": "textures2/Lamba_metallicRoughness.png"
     },
     {
-      "uri": "textures/Lamba_emissive.jpeg"
+      "uri": "textures2/Lamba_emissive.jpeg"
     },
     {
-      "uri": "textures/Lamba_normal.png"
+      "uri": "textures2/Lamba_normal.png"
     },
     {
-      "uri": "textures/sovale_baseColor.jpeg"
+      "uri": "textures2/sovale_baseColor.jpeg"
     },
     {
-      "uri": "textures/sovale_metallicRoughness.png"
+      "uri": "textures2/sovale_metallicRoughness.png"
     },
     {
-      "uri": "textures/sovale_normal.png"
+      "uri": "textures2/sovale_normal.png"
     },
     {
-      "uri": "textures/Sandalye_baseColor.jpeg"
+      "uri": "textures2/Sandalye_baseColor.jpeg"
     },
     {
-      "uri": "textures/Sandalye_metallicRoughness.png"
+      "uri": "textures2/Sandalye_metallicRoughness.png"
     },
     {
-      "uri": "textures/Sandalye_normal.png"
+      "uri": "textures2/Sandalye_normal.png"
     },
     {
-      "uri": "textures/Boya_Kutusu_baseColor.jpeg"
+      "uri": "textures2/Boya_Kutusu_baseColor.jpeg"
     },
     {
-      "uri": "textures/Boya_Kutusu_metallicRoughness.png"
+      "uri": "textures2/Boya_Kutusu_metallicRoughness.png"
     },
     {
-      "uri": "textures/Boya_Kutusu_normal.png"
+      "uri": "textures2/Boya_Kutusu_normal.png"
     },
     {
-      "uri": "textures/Desk_baseColor.jpeg"
+      "uri": "textures2/Desk_baseColor.jpeg"
     },
     {
-      "uri": "textures/Desk_metallicRoughness.png"
+      "uri": "textures2/Desk_metallicRoughness.png"
     },
     {
-      "uri": "textures/Desk_normal.png"
+      "uri": "textures2/Desk_normal.png"
     },
     {
-      "uri": "textures/Tuval_baseColor.jpeg"
+      "uri": "textures2/Tuval_baseColor.jpeg"
     },
     {
-      "uri": "textures/Tuval_metallicRoughness.png"
+      "uri": "textures2/Tuval_metallicRoughness.png"
     },
     {
-      "uri": "textures/Tuval_normal.png"
+      "uri": "textures2/Tuval_normal.png"
     },
     {
-      "uri": "textures/Palet_baseColor.jpeg"
+      "uri": "textures2/Palet_baseColor.jpeg"
     },
     {
-      "uri": "textures/Palet_metallicRoughness.png"
+      "uri": "textures2/Palet_metallicRoughness.png"
     },
     {
-      "uri": "textures/Palet_normal.png"
+      "uri": "textures2/Palet_normal.png"
     },
     {
-      "uri": "textures/Firca_baseColor.jpeg"
+      "uri": "textures2/Firca_baseColor.jpeg"
     },
     {
-      "uri": "textures/Firca_metallicRoughness.png"
+      "uri": "textures2/Firca_metallicRoughness.png"
     },
     {
-      "uri": "textures/Firca_normal.png"
+      "uri": "textures2/Firca_normal.png"
     },
     {
-      "uri": "textures/Hali_baseColor.jpeg"
+      "uri": "textures2/Hali_baseColor.jpeg"
     },
     {
-      "uri": "textures/Hali_metallicRoughness.png"
+      "uri": "textures2/Hali_metallicRoughness.png"
     },
     {
-      "uri": "textures/Hali_normal.png"
+      "uri": "textures2/Hali_normal.png"
     },
     {
-      "uri": "textures/Koltuk_baseColor.jpeg"
+      "uri": "textures2/Koltuk_baseColor.jpeg"
     },
     {
-      "uri": "textures/Koltuk_metallicRoughness.png"
+      "uri": "textures2/Koltuk_metallicRoughness.png"
     },
     {
-      "uri": "textures/Koltuk_normal.png"
+      "uri": "textures2/Koltuk_normal.png"
     },
     {
-      "uri": "textures/Parke_baseColor.jpeg"
+      "uri": "textures2/Parke_baseColor.jpeg"
     },
     {
-      "uri": "textures/Parke_metallicRoughness.png"
+      "uri": "textures2/Parke_metallicRoughness.png"
     },
     {
-      "uri": "textures/Parke_normal.png"
+      "uri": "textures2/Parke_normal.png"
     },
     {
-      "uri": "textures/Glass_baseColor.png"
+      "uri": "textures2/Glass_baseColor.png"
     },
     {
-      "uri": "textures/Glass_metallicRoughness.png"
+      "uri": "textures2/Glass_metallicRoughness.png"
     },
     {
-      "uri": "textures/Glass_normal.png"
+      "uri": "textures2/Glass_normal.png"
     },
     {
-      "uri": "textures/Kasa_baseColor.jpeg"
+      "uri": "textures2/Kasa_baseColor.jpeg"
     },
     {
-      "uri": "textures/Kasa_metallicRoughness.png"
+      "uri": "textures2/Kasa_metallicRoughness.png"
     },
     {
-      "uri": "textures/Kasa_normal.png"
+      "uri": "textures2/Kasa_normal.png"
     },
     {
-      "uri": "textures/Keys_baseColor.jpeg"
+      "uri": "textures2/Keys_baseColor.jpeg"
     },
     {
-      "uri": "textures/Keys_metallicRoughness.png"
+      "uri": "textures2/Keys_metallicRoughness.png"
     },
     {
-      "uri": "textures/Keys_normal.png"
+      "uri": "textures2/Keys_normal.png"
     },
     {
-      "uri": "textures/material_19_baseColor.jpeg"
+      "uri": "textures2/material_19_baseColor.jpeg"
     },
     {
-      "uri": "textures/material_19_metallicRoughness.png"
+      "uri": "textures2/material_19_metallicRoughness.png"
     },
     {
-      "uri": "textures/material_19_normal.png"
+      "uri": "textures2/material_19_normal.png"
     },
     {
-      "uri": "textures/Hdmi_baseColor.jpeg"
+      "uri": "textures2/Hdmi_baseColor.jpeg"
     },
     {
-      "uri": "textures/Hdmi_metallicRoughness.png"
+      "uri": "textures2/Hdmi_metallicRoughness.png"
     },
     {
-      "uri": "textures/Hdmi_normal.png"
+      "uri": "textures2/Hdmi_normal.png"
     }
   ],
   "materials": [
