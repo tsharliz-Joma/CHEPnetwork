@@ -30,14 +30,14 @@
             </a-marker>
 
             <a-marker preset="hiro">
-                <a-entity position="0 3 0" gtlf-model="#microphone" scale="0.5 0.5 0.5"></a-entity>
+                <!-- <a-entity position="0 3 0" gtlf-model="#microphone" scale="0.5 0.5 0.5"></a-entity> -->
 
-                <!-- <a-sphere position="0 1.5 0" material="color: #fff;"  multisrc="srcs:#right,#left,#top,#bottom,#front,#back"></a-sphere> -->
+                <a-sphere position="0 1.5 0" material="color: #fff;"  multisrc="srcs:#right,#left,#top,#bottom,#front,#back"></a-sphere>
             </a-marker>
 
             <a-marker preset="kanji">
                 <!-- <a-octahedron position="0 1.75 0" material="color: #fff;" multisrc="src3:#front"></a-octahedron> -->
-                <a-entity position="0 5 0" gltf-model="url(https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/js/microphone-scene.gltf)"></a-entity>
+                <a-entity position="0 5 0" gltf-model="url(https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/js/microphone-scene.gltf)" material='color: #fff;'  multisrc="srcs:#right,#left,#top,#bottom,#front,#back" ></a-entity>
             </a-marker>
 
             <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
