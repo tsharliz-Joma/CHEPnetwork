@@ -1,16 +1,27 @@
-$ = (querySelector) => document.querySelector(querySelector);
-
-const chepCube = $('chep-cube');
-const chepBall = $('chep-ball');
-
-const animateUp = (object, Yposition) => {
-    const position = `0 ${0 + -Math.tan(Date.now() / 1000)} ${Yposition}`;
-    object.setAttribute('position', position);
-    requestAnimationFrame(() => animateUp(object, Yposition));
-}
+//
 
 
 
-animateUp(chepCube, '1.75');
-animateUp(chepBall, '1.5');
+// ======= DOSENT WORK IN AR.js for me ATM ========== //
+
+// const chepCube = document.getElementById('chep-ball')
+
+// const animateUp = (object, Zposition) => {
+//     const position = `x:0 , y:${Math.floor(0 + -Math.tan(Date.now()) / 1000)}, `;
+    
+//     object.setAttribute('position', {x: 0, y:0 + -Math.tan(Date.now()) / 100, z: 0 });
+    
+
+//     requestAnimationFrame(() => animateUp(object, Zposition));
+// };
+
+// // console.log(chepBall);
+// console.log(chepCube);
+// console.log('hello')
+
+
+
+// animateUp(chepCube, '0');
+// console.log(chepCube.getAttribute('position'))
+// // animateUp(chepBall, '0');
 
