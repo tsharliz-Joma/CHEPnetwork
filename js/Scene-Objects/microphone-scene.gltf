@@ -1317,18 +1317,18 @@
   "buffers": [
     {
       "byteLength": 653040,
-      "uri": "../Microphone-Textures/scene.bin"
+      "uri": "../../Microphone-Textures/scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "../Microphone-Textures/01___Default_baseColor.jpeg"
+      "uri": "../../Microphone-Textures/01___Default_baseColor.jpeg"
     },
     {
-      "uri": "../Microphone-Textures/01___Default_metallicRoughness.png"
+      "uri": "../../Microphone-Textures/01___Default_metallicRoughness.png"
     },
     {
-      "uri": "../Microphone-Textures/01___Default_normal.jpeg"
+      "uri": "../../Microphone-Textures/01___Default_normal.jpeg"
     }
   ],
   "materials": [
