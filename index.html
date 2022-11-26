@@ -10,7 +10,7 @@
     
 
     <body style="margin : 0px; overflow: hidden;">
-        <a-scene embedded arjs renderer="precision: high;  physicallyCorrectLights: false;"device-orientation-permission-ui="enabled: false" deviceMotionMessage="Hey, Thank you for giving me this opportunity and having me here today!!" >
+        <a-scene embedded arjs renderer="precision: high; physicallyCorrectLights: false; antialias: true;"device-orientation-permission-ui="enabled: false" deviceMotionMessage="Hey, Thank you for giving me this opportunity and having me here today!!" >
 
             <a-assets>
                 <img id="front" src="./Images/chep.png">
@@ -19,6 +19,8 @@
                 <img id="right" src="./Images/chep.png">
                 <img id="top" src="./Images/chep.png">
                 <img id="bottom" src="./Images/chep.png">
+
+                <a-asset-items id="bot" src="./js/Scene-Objects/bot-scene.gltf"></a-asset-items>
             </a-assets>
 
             <a-marker type='pattern' url='https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/Patterns/pattern-chep.patt'>
@@ -33,7 +35,8 @@
 
             <a-marker preset="kanji">
                 <!-- <a-octahedron position="0 1.75 0" material="color: #fff;" multisrc="src3:#front"></a-octahedron> -->
-                <a-entity position="0 3 0" gltf-model="url(https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/js/Scene-Objects/microphone-scene.gltf)"></a-entity>
+                <!-- <a-entity position="0 3 0" gltf-model="url(https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/js/Scene-Objects/microphone-scene.gltf)"></a-entity> -->
+                <a-entity gltf-model="#bot" position="0 2 0"></a-entity>
             </a-marker>
 
             <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
