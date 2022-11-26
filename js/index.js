@@ -25,4 +25,3 @@
 // animateUp(chepCube, '0');
 // console.log(chepCube.getAttribute('position'))
 // animateUp(chepBall, '0');
-
