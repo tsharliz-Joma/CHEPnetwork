@@ -6,10 +6,11 @@
     <!-- we import arjs version without NFT but with marker + location based support -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <script src="https://cdn.rawgit.com/elbobo/aframe-multisrc-component/b6d23310/dist/0.3/aframe-multisrc-component.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
     
 
     <body style="margin : 0px; overflow: hidden;">
-        <a-scene embedded arjs device-orientation-permission-ui="enabled: false" deviceMotionMessage="Hey, Thank you for giving me this opportunity and having me here today!!">
+        <a-scene embedded arjs renderer="precision: high; colorManagement: true; physicallyCorrectLights: true;"device-orientation-permission-ui="enabled: false" deviceMotionMessage="Hey, Thank you for giving me this opportunity and having me here today!!" >
 
             <a-assets>
                 <img id="front" src="./Images/chep.png">
@@ -32,7 +33,7 @@
 
             <a-marker preset="kanji">
                 <!-- <a-octahedron position="0 1.75 0" material="color: #fff;" multisrc="src3:#front"></a-octahedron> -->
-                <a-entity position="0 3 0" gltf-model="url(https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/js/microphone-scene.gltf)"></a-entity>
+                <a-entity position="0 3 0" gltf-model="url(https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/js/Scene-Objects/microphone-scene.gltf)"></a-entity>
             </a-marker>
 
             <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
