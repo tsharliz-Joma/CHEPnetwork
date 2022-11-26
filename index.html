@@ -10,7 +10,7 @@
     
 
     <body style="margin : 0px; overflow: hidden;">
-        <a-scene embedded arjs renderer="precision: high; colorManagement: true; physicallyCorrectLights: true;"device-orientation-permission-ui="enabled: false" deviceMotionMessage="Hey, Thank you for giving me this opportunity and having me here today!!" >
+        <a-scene embedded arjs renderer="precision: high;  physicallyCorrectLights: false;"device-orientation-permission-ui="enabled: false" deviceMotionMessage="Hey, Thank you for giving me this opportunity and having me here today!!" >
 
             <a-assets>
                 <img id="front" src="./Images/chep.png">
@@ -21,7 +21,7 @@
                 <img id="bottom" src="./Images/chep.png">
             </a-assets>
 
-            <a-marker type='pattern' url='https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/pattern-chep2.patt'>
+            <a-marker type='pattern' url='https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/Patterns/pattern-chep.patt'>
                 <a-box id="chep-cube" position='0 2 0' animation="property: rotation; to: 0 360 0; dur: 4000; easing: linear; loop: true" material='color: #fff;'  multisrc="srcs:#right,#left,#top,#bottom,#front,#back" ></a-box>
                 <!-- <a-entity gltf-model="url(https://raw.githubusercontent.com/tsharliz-Joma/CHEPnetwork/main/js/microphone-scene.gltf)"></a-entity> -->
             </a-marker>
